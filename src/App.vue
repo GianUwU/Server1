@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <h1>Hello from App.vue 🎉</h1>
-    <MyButton />
+  <div id="app">
+    <h1>Hello Vue 🎉</h1>
+    <p>This is a minimal App.vue with no extra components.</p>
   </div>
 </template>
 
 <script>
-import MyButton from './components/MyButton.vue'
-
 export default {
-  name: 'App',
-  components: { MyButton }
+  name: 'App'
 }
 </script>
 
 <style>
-h1 {
-  color: dodgerblue;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
 }
 </style>
